@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cita Citaku</title>
+    <link rel="stylesheet" type="text/css" href="gatcha.css">
+    <script src="gatcha.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+        <h1>CITA - CITAKU </h1>
+        <form name="biodata">
+            <pre>
+            <p class="awal">Silahkan masukkan nama anda dan cita cita yang anda inginkan</p>
+            <input type="text" id="nama_lengkap" class="kolom" placeholder=" Nama Anda ">
+            <input type="text" id="citacita" class="kolom" placeholder=" Cita-Cita" >
+            <p id=presentase> Presentase Sukses: </p>
+            <p id="output"></p>
+
+            <input type="button" id= "btn" onclick="display()" class="btn_login" value="Gatcha">
+            <input type="reset" class="btn_reset" value="Reset">
+            </pre>
+        </form>
+        </center>
+    </div>
+
+    <div class="isi">
+        <h2> Tabel Cita Cita </h2>
+        <table id="display">
+            <tr>
+                <td> Nama  </td>
+                <td> Cita Cita </td>
+                <td> Presentase </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
