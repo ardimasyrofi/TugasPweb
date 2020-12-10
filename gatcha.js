@@ -2,7 +2,6 @@ alert("Selamat Datang, Selamat Bergatcha Ria !");
 
 function display() {
     let random = [Math.floor(Math.random()*100)]
-    document.getElementById('output').innerText= random
         var a = document.getElementById("nama_lengkap").value;
         var b = document.getElementById("citacita").value;
 
@@ -16,7 +15,7 @@ function display() {
             alert("Di isi Semua ya !!");
             return
         }
-
+        else{document.getElementById('output').innerText= random}
         cell1.innerHTML = a; cell2.innerHTML = b; cell3.innerHTML = random
 
 
